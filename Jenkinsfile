@@ -22,7 +22,7 @@ pipeline{
         }
 
         // Add the Release stage here
-        stage('Release') {
+        stage('ReleAse') {
             steps{
                 sh '''
                     oc project vzqiwk-greetings
